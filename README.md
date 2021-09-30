@@ -1,4 +1,11 @@
 # TDD-example
+## About
+App to learn how to use TDD (Test Driven-Development) practices in an iOS app. We are using the XCTest framework to make the Unity and UI tests. Fell free to help us!
+
+## Credits
+We are using the Gera: gerador de cobranças only with learning purposes. We did not had the idea behind the app creation or participed in the app development.
+If you are interested in the Gera app, you can find them in the App Store: https://apps.apple.com/br/app/gera-gerador-de-cobran%C3%A7as/id1530482711
+Thank you for supporting our learning, Gera Team! 
 
 <!-- Git Flow -->
 ## Git Flow
