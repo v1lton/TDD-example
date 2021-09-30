@@ -99,13 +99,13 @@
 		89CB91252705E7A200962380 /* TDD-example */ = {
 			isa = PBXGroup;
 			children = (
-				89CB91262705E7A200962380 /* AppDelegate.swift */,
-				89CB91282705E7A200962380 /* SceneDelegate.swift */,
-				89CB912A2705E7A200962380 /* ViewController.swift */,
-				89CB912C2705E7A200962380 /* Main.storyboard */,
-				89CB912F2705E7A400962380 /* Assets.xcassets */,
-				89CB91312705E7A400962380 /* LaunchScreen.storyboard */,
-				89CB91342705E7A400962380 /* Info.plist */,
+				89CB91562705E86F00962380 /* AppDelegate */,
+				89CB91572705E87C00962380 /* Controllers */,
+				89CB915A2705E89500962380 /* Models */,
+				89CB91582705E88500962380 /* Resources */,
+				89CB915C2705E8E400962380 /* Storyboards */,
+				89CB91592705E88E00962380 /* ViewModels */,
+				89CB915B2705E89D00962380 /* Views */,
 			);
 			path = "TDD-example";
 			sourceTree = "<group>";
@@ -125,6 +125,62 @@
 				89CB91492705E7A400962380 /* TDD_exampleUITestsLaunchTests.swift */,
 			);
 			path = "TDD-exampleUITests";
+			sourceTree = "<group>";
+		};
+		89CB91562705E86F00962380 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				89CB91282705E7A200962380 /* SceneDelegate.swift */,
+				89CB91262705E7A200962380 /* AppDelegate.swift */,
+				89CB91342705E7A400962380 /* Info.plist */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		89CB91572705E87C00962380 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89CB912A2705E7A200962380 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		89CB91582705E88500962380 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89CB912F2705E7A400962380 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		89CB91592705E88E00962380 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89CB915A2705E89500962380 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89CB915B2705E89D00962380 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89CB915C2705E8E400962380 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				89CB91312705E7A400962380 /* LaunchScreen.storyboard */,
+				89CB912C2705E7A200962380 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
