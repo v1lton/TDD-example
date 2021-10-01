@@ -16,6 +16,8 @@
 		89CB913E2705E7A400962380 /* TDD_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB913D2705E7A400962380 /* TDD_exampleTests.swift */; };
 		89CB91482705E7A400962380 /* TDD_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB91472705E7A400962380 /* TDD_exampleUITests.swift */; };
 		89CB914A2705E7A400962380 /* TDD_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB91492705E7A400962380 /* TDD_exampleUITestsLaunchTests.swift */; };
+		89CF66F127073D0700E2A25B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF66F027073D0700E2A25B /* Card.swift */; };
+		89CF66F327074D4900E2A25B /* TDD_exampleCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF66F227074D4900E2A25B /* TDD_exampleCardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		89CB91432705E7A400962380 /* TDD-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CB91472705E7A400962380 /* TDD_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_exampleUITests.swift; sourceTree = "<group>"; };
 		89CB91492705E7A400962380 /* TDD_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89CF66F027073D0700E2A25B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		89CF66F227074D4900E2A25B /* TDD_exampleCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_exampleCardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,11 @@
 		89CB91252705E7A200962380 /* TDD-example */ = {
 			isa = PBXGroup;
 			children = (
+				89CF66EF27073CD800E2A25B /* Models */,
 				89CB91562705E86F00962380 /* AppDelegate */,
 				89CB91572705E87C00962380 /* Controllers */,
-				89CB915A2705E89500962380 /* Models */,
 				89CB91582705E88500962380 /* Resources */,
 				89CB915C2705E8E400962380 /* Storyboards */,
-				89CB91592705E88E00962380 /* ViewModels */,
-				89CB915B2705E89D00962380 /* Views */,
 			);
 			path = "TDD-example";
 			sourceTree = "<group>";
@@ -113,6 +115,7 @@
 		89CB913C2705E7A400962380 /* TDD-exampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				89CF66F227074D4900E2A25B /* TDD_exampleCardTests.swift */,
 				89CB913D2705E7A400962380 /* TDD_exampleTests.swift */,
 			);
 			path = "TDD-exampleTests";
@@ -153,27 +156,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		89CB91592705E88E00962380 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		89CB915A2705E89500962380 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		89CB915B2705E89D00962380 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		89CB915C2705E8E400962380 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +163,14 @@
 				89CB912C2705E7A200962380 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		89CF66EF27073CD800E2A25B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89CF66F027073D0700E2A25B /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +307,7 @@
 				89CB912B2705E7A200962380 /* ViewController.swift in Sources */,
 				89CB91272705E7A200962380 /* AppDelegate.swift in Sources */,
 				89CB91292705E7A200962380 /* SceneDelegate.swift in Sources */,
+				89CF66F127073D0700E2A25B /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89CB913E2705E7A400962380 /* TDD_exampleTests.swift in Sources */,
+				89CF66F327074D4900E2A25B /* TDD_exampleCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +489,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D84M4LK87S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TDD-example/Info.plist";
+				INFOPLIST_FILE = "TDD-example/AppDelegate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -525,7 +517,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D84M4LK87S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TDD-example/Info.plist";
+				INFOPLIST_FILE = "TDD-example/AppDelegate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
